@@ -1,0 +1,39 @@
+.bag{
+    max-width: 200px;
+}
+
+.bag .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    padding: 0px 5px;
+    cursor: pointer;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.185);
+    transition: 0.25s ease-in-out;
+}
+
+.bag .pokemon:hover{
+    transform: scale(1.05);
+    background-color: red;
+}
+
+.bag .pokemon img{
+    width: 25%;
+    border-radius: 50%;
+    min-height: 60px;
+    min-width: 60px;
+    padding: 3px;
+
+}
+
+.bag .pokemon span{
+    padding: 0px 10px 0px 0px;
+}
+
+.bag .pokemon.ativo{
+    background-color: red;
+}
